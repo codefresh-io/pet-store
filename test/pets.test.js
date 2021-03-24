@@ -5,7 +5,6 @@ const chaiHttp = require('chai-http');
 const server=require("../index");
 const { expect } = chai;
 chai.use(chaiHttp);
-
 // describe('GET /', () => {
 // //     it('should return pets detail', (done) => {
 // //         chai
