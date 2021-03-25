@@ -17,14 +17,14 @@ describe('GET /', () => {
                 done();
             });
     });
-//     it('should return owner detail along with pet detail', (done) => {
-//         chai
-//             .request(server)
-//             .get('/owners/1')
-//             .end((err, res) => {
-//                 expect(res).to.have.status(200);
-//                 expect(res.body.pets).to.have.length(2);
-//                 done();
-//             });
-//     });
+    it('should return owner detail along with pet detail', (done) => {
+        chai
+            .request(server)
+            .get('/owners/1')
+            .end((err, res) => {
+                expect(res).to.have.status(200);
+                expect(res.body.pets).to.have.length(2);
+                done();
+            });
+    });
 });
