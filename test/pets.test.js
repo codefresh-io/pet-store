@@ -18,7 +18,7 @@ describe('GET /', () => {
     });
 });
 
-describe('/POST', () => {
+// describe('/POST', () => {
 //     it('should create pet with valid request', (done) => {
 //         chai
 //             .request(server)
@@ -36,4 +36,4 @@ describe('/POST', () => {
 //                 done();
 //             });
 //     });
-});
+// });
