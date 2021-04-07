@@ -7,6 +7,7 @@ const { expect } = chai;
 chai.use(chaiHttp);
 
 describe('GET /', () => {
+  //
 //     it('should return list of owners', (done) => {
 //         chai
 //             .request(server)
