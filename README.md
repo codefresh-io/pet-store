@@ -50,7 +50,7 @@ A Pet Store application with Node.js(ES6), Express framework, Mocha/chai(Test Ca
 - Using Mocha/chai for test case integration.
 
 ## Assumptions ##
-- Authentication is not needed.
+- Authentication is not needed. 
 - Config is not needed as its a small application and doesnt contains database.
 - I havent put much comments in the code as its readable itself.
 - Only integration tests are available in this repository.
