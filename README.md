@@ -47,7 +47,7 @@ A Pet Store application with Node.js(ES6), Express framework, Mocha/chai(Test Ca
 ## Code style ##
 - Using eslint for code style
 - Using NodeJS witj ES6.
-- Using Mocha/chai for test case integration.
+- Using Mocha/chai for test case integration. 
 
 ## Assumptions ##
 - Authentication is not needed.
