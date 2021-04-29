@@ -43,7 +43,7 @@ A Pet Store application with Node.js(ES6), Express framework, Mocha/chai(Test Ca
 - `routes` are RESTful route declarations using [express server module]
 - `datastore` contains the json file
 - `index.js` is the entrypoint that actually starts the Express server
-
+ 
 ## Code style ##
 - Using eslint for code style
 - Using NodeJS witj ES6.
