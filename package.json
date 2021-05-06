@@ -4,7 +4,7 @@
   "description": "We provice the microservice to handle different api using NodeJS, Es6 with docker",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --exit",
+    "test": "mocha --reporter mocha-allure-reporter --exit",
     "start": "node index.js"
   },
   "author": "Rajan",
@@ -13,6 +13,7 @@
     "body-parser": "^1.19.0",
     "eslint": "^5.16.0",
     "express": "^4.16.4",
+    "mocha-allure-reporter": "^1.4.0",
     "nodemon": "^1.19.0",
     "underscore": "^1.9.1",
     "winston": "^3.2.1"
